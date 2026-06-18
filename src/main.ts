@@ -12,8 +12,10 @@ async function bootstrap() {
       //PARA QUE SI MANDAS MAS VALORES EN EL BODY SALGA ERROR
       whitelist: true,
       forbidNonWhitelisted: true,
+      transform: true,
       transformOptions: {
         exposeUnsetFields: false,
+        enableImplicitConversion: true,
       },
     }),
   );

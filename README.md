@@ -23,4 +23,19 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+
+5.\_CLONAR EL ARCHIVO **.ENV.TEMPLATE** Y RENOMBRAR LA COPIA A .ENV
+6.\_LLENAR LAS VARIABLES DE ENTORNO DEFINIDAS CON ENV
+7.\_EJECUTAR LA APLICACION EN DEV
+
+```
+yarn start:dev
+```
+
+8.\_RECONSTRUIR LA BASE DE DATOS CON LA SEMILLA
+
+```
+http://localhost:3000/api/v2/seed
+```
+
 # nest-pok
